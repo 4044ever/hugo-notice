@@ -1,4 +1,5 @@
 {{/* Available notice types: warning, info, note, tip */}}
+{{/* view with https://svg-path-visualizer.netlify.app/ */}}
 {{- $noticeType := .Get 0 -}}
 {{/* Workaround markdownify inconsistency for single/multiple paragraphs */}}
 {{- $raw := (markdownify .Inner | chomp) -}}
